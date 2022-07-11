@@ -16,7 +16,7 @@ namespace School.Data.Migrations
             var passwordHash = hasher.HashPassword(null, "Password100!");
 
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("INSERT INTO AspNetUsers(Id, UserName, NormalizedUserName,Email,EmailConfirmed,PhoneNumberConfirmed,TwoFactorEnabled,LockoutEnabled,AccessFailedCount,NormalizedEmail,PasswordHash,SecurityStamp,FirstName)");
+            sb.AppendLine("INSERT INTO AspNetUsers(Id, UserName, NormalizedUserName,Email,EmailConfirmed,PhoneNumberConfirmed,TwoFactorEnabled,LockoutEnabled,AccessFailedCount,NormalizedEmail,PasswordHash,SecurityStamp)");
             sb.AppendLine("VALUES(");
             sb.AppendLine($"'{ADMIN_USER_GUID}'");
             sb.AppendLine(",'silindanemdu@gmail.com'");
@@ -30,7 +30,6 @@ namespace School.Data.Migrations
             sb.AppendLine(",'SILINDANEMDU@GMAIL.COM'");
             sb.AppendLine($", '{passwordHash}'");
             sb.AppendLine(", ''");
-            sb.AppendLine(",'Admin'");
             sb.AppendLine(")");
 
             migrationBuilder.Sql(sb.ToString());
