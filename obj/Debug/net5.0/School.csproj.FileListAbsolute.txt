@@ -173,3 +173,8 @@ C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shar
 C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Views\Shared\_AdminMenuPartial.cshtml.g.cs
+C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Areas\Admin\Views\MediaType\Create.cshtml.g.cs
+C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Areas\Admin\Views\MediaType\Delete.cshtml.g.cs
+C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Areas\Admin\Views\MediaType\Details.cshtml.g.cs
+C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Areas\Admin\Views\MediaType\Edit.cshtml.g.cs
+C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Areas\Admin\Views\MediaType\Index.cshtml.g.cs
