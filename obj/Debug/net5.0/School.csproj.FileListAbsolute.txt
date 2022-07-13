@@ -178,3 +178,14 @@ C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Areas\Admin\Views\Medi
 C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Areas\Admin\Views\MediaType\Details.cshtml.g.cs
 C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Areas\Admin\Views\MediaType\Edit.cshtml.g.cs
 C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Areas\Admin\Views\MediaType\Index.cshtml.g.cs
+C:\Users\msilinda\Documents\School\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\msilinda\Documents\School\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\msilinda\Documents\School\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\msilinda\Documents\School\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\msilinda\Documents\School\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\msilinda\Documents\School\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\msilinda\Documents\School\obj\Debug\net5.0\Razor\Views\Shared\_UserLoginPartial.cshtml.g.cs

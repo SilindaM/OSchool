@@ -10,8 +10,14 @@ using System.Text;
 
 namespace School.Data
 {
-    public class ApplicationUser : IdentityUser
+   
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
+       
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
+        {
+        }
         [StringLength(250)]
         public string FirstName { get; set; }
         [StringLength(250)]
@@ -24,16 +30,7 @@ namespace School.Data
         public string PostCode { get; set; }
 
         [ForeignKey("UserId")]
-        public virtual ICollection<UserCategory> UserCategory { get; set; }
-
-    }
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
-    {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
-        {
-        }
-
+        public virtual ICollection<UserCategory> CategoryUser { get; set; }
         public DbSet<Category> Category { get; set; }
         public DbSet<CategoryItem> CategoryItem { get; set; }
         public DbSet<MediaType> MediaType { get; set; }
